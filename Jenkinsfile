@@ -153,13 +153,13 @@ pipeline {
         }
         
 
-//         stage('shippingservice') {
-//             steps {
-//                 script{                   
-//                     sh "docker rmi -f \$(docker images -aq)"
-//                          }
-//                     }
-//                 }
+        // stage('remove local docker images of jenkins server') {
+        //     steps {
+        //         script{                   
+        //             sh "docker rmi -f \$(docker images -aq)"
+        //                  }
+        //             }
+        //         }
 
 
 
